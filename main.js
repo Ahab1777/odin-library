@@ -1,27 +1,27 @@
 // dummy list for test
 
 const myLibrary = [
-    {
-    title: 'Infinite Jest',
-    year: 1996,
-    author: 'David Foster Wallace',
-    country: 'United States',
-    read: false
-    },
-    {
-    title: 'Blood Meridian',
-    year: 1985,
-    author: 'Cormac McCarthy',
-    country: 'United States',
-    read: false
-    },
-    {
-    title: 'Moby Dick',
-    year: 1851,
-    author: 'Herman Melville',
-    country: 'United States',
-    read: false
-    }
+    // {
+    // title: 'Infinite Jest',
+    // year: 1996,
+    // author: 'David Foster Wallace',
+    // country: 'United States',
+    // read: false
+    // },
+    // {
+    // title: 'Blood Meridian',
+    // year: 1985,
+    // author: 'Cormac McCarthy',
+    // country: 'United States',
+    // read: false
+    // },
+    // {
+    // title: 'Moby Dick',
+    // year: 1851,
+    // author: 'Herman Melville',
+    // country: 'United States',
+    // read: false
+    // }
 
 ];
 
@@ -59,7 +59,7 @@ function libraryRender(library) {
         <p class="author">${book.author}</p>
         <p class="country">${book.country}</p>
         <p class="year">${book.year}</p>
-        <button class="toggle-read">Read</button>
+        <button class="toggle-read">Unread</button>
         `
 
         libraryContainer.appendChild(bookCard)
