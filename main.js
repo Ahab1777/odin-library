@@ -113,3 +113,12 @@ bookForm.addEventListener('submit', function(event) {
     UI.renderLibrary(myLibrary)
     bookForm.reset()
 })
+
+const yearInput = document.getElementById('book-year')
+yearInput.addEventListener('input', function(event) {
+    if (event.target.value > new Date().getFullYear()){
+        yearInput.setCustomValidity('Year cannot be in the future');
+    } else {
+        yearInput.setCustomValidity('');
+    }
+});

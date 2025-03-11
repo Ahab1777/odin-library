@@ -22,19 +22,19 @@
                 <h3>Add new book</h3>
                 <div class="form-input-container">
                     <label for="book-title">Title</label>
-                    <input id="book-title" type="text">
+                    <input required id="book-title" type="text" maxlength="30" minlength="3">
                 </div>
                 <div class="form-input-container">
                     <label for="book-author">Author</label>
-                    <input id="book-author" type="text">
+                    <input required id="book-author" type="text" maxlength="30" minlength="3">
                 </div>
                 <div class="form-input-container">
                     <label for="book-country">Country</label>
-                    <input id="book-country" type="text">
+                    <input required id="book-country" type="text" maxlength="30" minlength="3">
                 </div>
                 <div class="form-input-container">
                     <label for="book-year">Year</label>
-                    <input id="book-year" type="number">
+                    <input required id="book-year" type="number">
                 </div>
                 <input type="submit" value="Add book">
             </form>
